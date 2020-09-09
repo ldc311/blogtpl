@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ foo }}</title>
+</head>
+<body class="has-navpanel-fixed navpanel-fixed-left navpanel-is-top">
+  <div class="hello">
+    <button type="button" class="btn btn-outline-warning">
+      <i class="oi oi-home"></i>Home
+    </button>
+    <!-- 图标 -->
+    <span class="oi oi-account-login"></span>
+  </div>
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Button with data-target
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+  <!-- 由于不知道container需要包含哪些bootstrap的元件，使用部分导入bootstrap时，container没有作用 -->
+  <div class="container">
+    <div class="box box-primary">123</div>
+    <div class="box box-warning">123</div>
+    <div class="box box-info">123</div>
+    <div class="box box-mycolor">123</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+// opt1 整体导入bootstrap样式
+@import "~bootstrap/scss/bootstrap";
+//@import "helpers/variables";
+
+@import "includes/variables";
+// mixins
+@import "includes/mixins";
+
+// page elements
+@import "includes/page-header";
+@import "includes/navbar";
+@import "includes/sidebar";
+@import "includes/footer";
+
+// pages
+@import "includes/blog";
